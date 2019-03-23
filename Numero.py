@@ -12,8 +12,8 @@ class Numero:
     import math
 
 
+   #Se declara el metodo constructor
 def __init__(self, NumeroIngresado):
-    """se identifico el metodo constructor"""
     self.__NumeroIngresado = NumeroIngresado
     self.NumeroExponente()
 
