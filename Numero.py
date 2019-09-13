@@ -1,36 +1,25 @@
-"""se identifico el nombre de la clase"""
-class Numero:
-
-    #Se identificaron los atributos
-    __NumeroIngresado: float(0)
-    __NumeroExponente: float(0)
-    __a: float(0)
-    __b: float(0)
+class Numero: #Se identifico el nombre de la clase
+    __NumeroExponente = int(0)
+     #Se identifico los atributos
 
 
-    #Se importo la palabra reservada math para la resolución del problema
-    import math
+    def __init__(self, NumeroIngresado):     #Se declara el metodo constructor
+        self.NumeroExponente()
+        self.__ElevarPotencia
+
+        # Se declara el metodo el cual sera la parte lógica o de solución al problema
+    def NumeroExponente(self):
+        self.__NumeroExponente = (self.__NumeroExponente)
 
 
-   #Se declara el metodo constructor
-def __init__(self, NumeroIngresado):
-    self.__NumeroIngresado = NumeroIngresado
-    self.NumeroExponente()
+    exp = (2 ** 5)
+    for x in range(0, exp):
+        print("2^", x, " = ", 2 ** x)
 
-a=0
-b=2
-def realizarNumeroExponente(self):
-    for a in range(0,2):
-         print(b,'^',a,' = '(pow(b**a)))
 
-#Se declara el metodo el cual sera la parte lógica o de solución al problema
-def NumeroExponente(self):
-    self.__NumeroExponente = (self.__NumeroExponente)
-    self.__NumeroIngresado()
+    def getNumeroExponente(self): #Se usa get para que pueda mostrar el valor, puesto que  está declarado como privado
 
-def getNumeroExponente(self): #Se usa get para que pueda mostrar el valor, puesto que  está declarado como privado
-
-    return self.__NumeroIngresado #return es una palabra reservada para devolver un valor
+     return  #return es una palabra reservada para devolver un valor
 
 
 
